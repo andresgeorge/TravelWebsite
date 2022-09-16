@@ -1,0 +1,81 @@
+main li img {
+
+width: 300px;
+height: 280px;
+object-fit: cover;
+
+
+}
+
+header {
+
+position: static;
+
+}
+
+body{
+
+    background: linear-gradient(90deg, rgb(94, 94, 108) 11%, rgb(77, 88, 86) 87%, rgb(76, 89, 91) 100%);
+
+
+}
+
+main ul {
+
+width: 1200px;
+margin: 0 auto;
+display: grid;
+grid-template-columns: 1fr 1fr ;
+gap: 100px 100px;
+padding: 100px;
+
+}
+
+
+main li {
+
+display: flex;
+background-color: rgb(255, 255, 255);
+box-shadow: 1px  1px 4px  rgb(0, 0, 0, 0.2);
+
+overflow:hidden;
+border-radius: 10px;
+
+
+
+}
+
+.item {
+
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.link{
+
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.link a {
+
+text-decoration: none;
+color: rgb(0, 0, 0);
+padding: 6px;
+
+}
+
+.link a:hover{
+
+
+    
+    background-color:   rgb(205, 222, 20);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
