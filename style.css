@@ -1,7 +1,7 @@
 #hero {
 
     height: 800px;
-    background-image: url('/images/places/ocean.jpg');
+    background-image: url('images/places/ocean.jpg');
     background-position: center;
     background-size: cover;
 
